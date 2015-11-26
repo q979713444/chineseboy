@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#232736"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView 
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/tempfenlei"/>
+    
+     
+    <TextView
+        android:visibility="invisible"
+         android:layout_marginTop="10dp"
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF2525"
+        android:textSize="16sp" />
+    
+    <com.rxx.view.GestureLockView 
+        android:id="@+id/gestureLockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        </com.rxx.view.GestureLockView>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+            android:textSize="16sp"
+            android:textColor="#585C6E"
+             android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="管理手势密码"/>
+        
+         <TextView 
+             android:textSize="16sp"
+             android:textColor="#585C6E"
+             android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="登陆其他账号"/>
+    </LinearLayout>
+</LinearLayout>

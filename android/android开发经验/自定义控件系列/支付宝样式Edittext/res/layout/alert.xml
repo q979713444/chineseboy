@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_bg"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@id/tv_verify_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户名已注册(1002)"
+        android:textColor="@color/font_light_black"
+        android:textSize="@dimen/dialog_font_label" />
+
+    <Button
+        android:id="@id/btn_login"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_gray_disable"
+        android:text="@string/alert_btn"
+        android:textColor="@color/font_light_black"
+        android:textSize="@dimen/mobile_font_mes" />
+
+</LinearLayout>

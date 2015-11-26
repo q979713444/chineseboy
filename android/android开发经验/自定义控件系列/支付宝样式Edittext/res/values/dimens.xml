@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_width">280dp</dimen>
+    <dimen name="dialog_font_title">20sp</dimen>
+    <dimen name="dialog_font_label">16sp</dimen>
+    <dimen name="dialog_width_port">280dp</dimen>
+    <dimen name="dialog_height">265dp</dimen>
+    <dimen name="activity_item_font_tv">16sp</dimen>
+    <dimen name="activity_item_font_tv_info">18sp</dimen>
+    <dimen name="mobile_font_mes">12sp</dimen>
+    <dimen name="dialog_btn_padding">10dp</dimen>
+    <dimen name="dialog_login_info">16sp</dimen>
+    <dimen name="dialog_input_padding">12dp</dimen>
+    <dimen name="dialog_padding">15dp</dimen>
+    <dimen name="activity_charge_icon_width">40dp</dimen>
+    <dimen name="activity_charge_info">14sp</dimen>
+    <dimen name="activity_card_charge_info">15sp</dimen>
+    <dimen name="activity_card_charge_tv">16sp</dimen>
+    <dimen name="activity_card_charge_tv_margin">3dp</dimen>
+    <dimen name="activity_card_fill_font">16sp</dimen>
+
+</resources>

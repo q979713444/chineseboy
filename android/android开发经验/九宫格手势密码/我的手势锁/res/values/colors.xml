@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="touback">#00000000</drawable>
+
+    <color name="icon_bar_text_color">#82858b</color>
+    <color name="search_back">#eaeaea</color>
+    <color name="black">#000000</color>
+    <color name="home_back">#60CCCCCC</color>
+    <color name="allDivider">#80CCCCCC</color>
+    <color name="grey">#C1CDCD</color>
+    <color name="linkColor">#5757F2</color>
+    <color name="tv_grey9">#999999</color>
+    <color name="tv_black3">#333333</color>
+    <color name="tv_black6">#666666</color>
+    <color name="black6c">#CCCCCC</color>
+    <color name="black6e">#eeeeee</color>
+    <color name="blue">#0033FF</color>
+    <color name="apl60">#99000000</color>
+    <color name="bg_F9">#EFEFEF</color>
+    <color name="orange">#FF6600</color>
+    <color name="red">#FF0000</color>
+    <color name="login_ed1">#A9A9A9</color>
+    <!-- 手势锁 -->
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+    
+     <drawable name="testC">@color/red</drawable>
+
+    <!-- 扫描 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 画面背景色 -->
+    <drawable name="layout_backgroud">#000000</drawable>
+
+    <!-- 分割线背景色 -->
+    <drawable name="line_background">#161823</drawable>
+
+    <color name="front_line">#ffd8d8d8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lv_divider">#00000000</color>
+    <!-- 控件按下时显示的颜色 -->
+    <color name="list_backgroud_color">#2fb3cb</color>
+    <color name="title_color">#0f8ec5</color>
+    <color name="content_color">#737373</color>
+    <color name="str_color_gray">#999999</color>
+    <color name="str_color_black">#333333</color>
+
+</resources>

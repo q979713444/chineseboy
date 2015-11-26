@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true"><shape>
+            <corners android:radius="3dip" />
+
+            <stroke android:width="1dip" android:color="@color/bg_green" />
+
+            <solid android:color="@color/white" />
+        </shape></item>
+    <item android:state_pressed="true"><shape>
+            <stroke android:width="1dip" android:color="@color/bg_green" />
+
+            <corners android:radius="3dip" />
+
+            <solid android:color="@color/white" />
+        </shape></item>
+    <item android:drawable="@drawable/input_box_"></item>
+
+</selector>

@@ -1,0 +1,23 @@
+2015-10-15 17:27:56,416 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@485468d5: startup date [Thu Oct 15 17:27:56 CST 2015]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2015-10-15 17:27:57,263 | INFO  | PListStore:[C:\Users\Crystal\Desktop\android push\2\apache-activemq-5.12.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2015-10-15 17:27:57,283 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Crystal\Desktop\android push\2\apache-activemq-5.12.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2015-10-15 17:27:57,681 | INFO  | Apache ActiveMQ 5.12.0 (localhost, ID:andy-8984-1444901277550-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2015-10-15 17:27:57,747 | INFO  | Listening for connections at: tcp://andy:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2015-10-15 17:27:57,748 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2015-10-15 17:27:57,755 | INFO  | Listening for connections at: amqp://andy:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2015-10-15 17:27:57,756 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2015-10-15 17:27:57,762 | INFO  | Listening for connections at: stomp://andy:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2015-10-15 17:27:57,763 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2015-10-15 17:27:57,769 | INFO  | Listening for connections at: mqtt://andy:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2015-10-15 17:27:57,770 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2015-10-15 17:27:57,932 | INFO  | Listening for connections at ws://andy:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2015-10-15 17:27:57,932 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2015-10-15 17:27:57,933 | INFO  | Apache ActiveMQ 5.12.0 (localhost, ID:andy-8984-1444901277550-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2015-10-15 17:27:57,933 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2015-10-15 17:27:58,308 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2015-10-15 17:27:58,310 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2015-10-15 17:27:58,355 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2015-10-15 17:27:58,646 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2015-10-15 17:35:13,546 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp884514269-58
+2015-10-15 17:50:39,796 | WARN  | Transport Connection to: tcp://192.168.2.109:52217 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///192.168.2.109:52217@1883
+2015-10-15 17:51:45,453 | WARN  | Transport Connection to: tcp://192.168.2.109:52730 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///192.168.2.109:52730@1883

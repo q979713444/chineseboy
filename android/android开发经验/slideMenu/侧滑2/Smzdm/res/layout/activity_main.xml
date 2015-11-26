@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/main_fragemnet_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/grey"
+        />
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@color/tabbg"
+        android:orientation="horizontal"
+        android:paddingBottom="2.0dip"
+        android:paddingTop="2.0dip" >
+        <RadioButton
+            android:id="@+id/index"
+            style="@style/main_tabbar_bottom_common"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/bottom_bar_index"
+            android:gravity="center_horizontal"
+            android:text="@string/bottom_bar_index" />
+        <RadioButton
+            android:id="@+id/group"
+            style="@style/main_tabbar_bottom_common"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_bar_group"
+            android:gravity="center_horizontal"
+            android:text="@string/bottom_bar_group" />
+        <RadioButton
+            android:id="@+id/store"
+            style="@style/main_tabbar_bottom_common"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_bar_store"
+            android:gravity="center_horizontal"
+            android:text="@string/bottom_bar_store" />
+        <RadioButton
+            android:id="@+id/cart"
+            style="@style/main_tabbar_bottom_common"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_bar_cart"
+            android:gravity="center_horizontal"
+            android:text="@string/bottom_bar_cart" />
+        <RadioButton
+            android:id="@+id/more"
+            style="@style/main_tabbar_bottom_common"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_bar_more"
+            android:gravity="center_horizontal"
+            android:text="@string/bottom_bar_more" />
+    </RadioGroup>
+</LinearLayout>

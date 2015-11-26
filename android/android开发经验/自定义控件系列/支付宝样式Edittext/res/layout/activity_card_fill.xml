@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/font_dark_black"
+        android:padding="10dp" >
+
+        <ImageView
+            style="@style/dialog_back"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/activity_card_charge_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_font_title" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/title_seprater" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_item_bg"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_tv_top"
+                android:padding="10dp"
+                android:text="@string/mobile_number"
+                android:textSize="@dimen/activity_card_fill_font" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/title_seprater" />
+
+            <com.newgame.sdk.view.DivisionEditText
+                android:id="@id/et_code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/mobile_input_hint"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textSize="@dimen/activity_card_fill_font" />
+        </LinearLayout>
+        <!-- item2 -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/title_seprater" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_tv_bottom"
+                android:padding="10dp"
+                android:text="@string/mobile_pass"
+                android:textSize="@dimen/activity_card_fill_font" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/title_seprater" />
+
+            <com.newgame.sdk.view.DivisionEditText
+                android:id="@id/et_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/mobile_input_hint"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textSize="@dimen/activity_card_fill_font" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_green"
+        android:padding="@dimen/dialog_btn_padding"
+        android:text="@string/mobile_btn"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dialog_font_label" />
+
+</LinearLayout>

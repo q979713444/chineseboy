@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/gameinshow_page4_rootview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff00bfa5" >
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/page4_map" />
+
+        <ImageView
+            android:id="@+id/spider_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="28.0dip"
+            android:src="@drawable/page4_spiderman_right"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/spider_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="61.0dip"
+            android:src="@drawable/page4_spiderman_middle"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/spider_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24.0dip"
+            android:src="@drawable/page4_spiderman_left"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/spiderman_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="72.0dip"
+            android:src="@drawable/page4_text"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.example.testsplashview.Page0Layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gameinshow_page4_xiaocaiqi"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

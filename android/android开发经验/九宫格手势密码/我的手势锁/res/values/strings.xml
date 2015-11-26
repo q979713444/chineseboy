@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyGestureLock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 手势锁 -->
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_confirm_button_Know">"知道了"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"演示如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">请创建一个锁定用户的手势密码，方便以后登录。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    <string name="gesture_drawPwd">请绘制手势密码\n(输入错误可更换用户.)</string>
+    <string name="gesturepwd_unlock">3次失败后，需要重新登录。</string>
+    <string name="gesture_save">保存</string>
+    <string name="gesture_Redraw">重绘</string>
+    <string name="gesture_drawUnlock">绘制解锁图案</string>
+    <string name="toastSetPedSucces">密码设置成功</string>
+    <string name="toastLogin">登录</string>
+    <string name="toastUnlock">解锁成功</string>
+    <string name="toastlock">您已3次输错密码，再试1次到登录界面。</string>
+
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/dialog_back"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_font_label" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/activity_mobile_title"
+            android:textColor="@color/font_dark_black"
+            android:textSize="@dimen/dialog_font_title" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dp"
+        android:background="@color/title_seprater" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_item_light"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mobile_move"
+                android:textColor="@drawable/item_font_selector"
+                android:textSize="@dimen/dialog_font_title" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mobile_union"
+                android:textColor="@drawable/item_font_selector"
+                android:textSize="@dimen/dialog_font_title" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mobile_telecom"
+                android:textColor="@drawable/item_font_selector"
+                android:textSize="@dimen/dialog_font_title" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_gravity="bottom"
+            android:background="@color/title_seprator2" />
+
+        <ImageView
+            android:id="@+id/iv_flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:src="@drawable/flow_tragle" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_item_middle_selector"
+        android:clickable="true"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/mobile_item1_tv"
+            android:textColor="@color/font_light_black"
+            android:textSize="@dimen/activity_item_font_tv" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_down" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/mobile_tv_mes1"
+        android:textColor="@color/font_red"
+        android:textSize="@dimen/mobile_font_mes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/mobile_tv_mes2"
+        android:textColor="@color/font_red"
+        android:textSize="@dimen/mobile_font_mes" /><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_item_bg"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_tv_top"
+                android:padding="15dp"
+                android:text="@string/mobile_number"
+                android:textSize="@dimen/dialog_font_title" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/title_seprater" />
+
+            <EditText
+                android:id="@+id/et_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/mobile_input_hint"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/dialog_font_title" />
+        </LinearLayout>
+        <!-- item2 -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/title_seprater" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_tv_bottom"
+                android:padding="15dp"
+                android:text="@string/mobile_pass"
+                android:textSize="@dimen/dialog_font_title" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/title_seprater" />
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/mobile_input_hint"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/dialog_font_title" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_green"
+        android:padding="10dp"
+        android:text="@string/mobile_btn"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dialog_font_title" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhangyx.MyGestureLock"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:name="com.zhangyx.MyGestureLock.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zhangyx.MyGestureLock.MainActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            >
+        </activity>
+
+        <!-- 手势锁：解锁界面 -->
+        <activity
+            android:name="com.zhangyx.MyGestureLock.gesture.UnlockGesturePasswordActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            />
+
+        <!-- 手势锁：解锁界面 -->
+        <activity
+            android:name="com.zhangyx.MyGestureLock.gesture.CreateGesturePasswordActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            />
+        <!-- 手势锁：解锁界面 -->
+        <activity
+            android:name="com.zhangyx.MyGestureLock.gesture.GuideGesturePasswordActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            />
+           
+        
+          <!-- 手势锁：解锁界面 -->
+        <activity
+            android:name="com.zhangyx.MyGestureLock.LoginActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

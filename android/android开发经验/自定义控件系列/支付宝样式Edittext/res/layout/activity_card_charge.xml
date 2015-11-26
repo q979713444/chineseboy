@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/font_dark_black"
+        android:padding="10dp" >
+
+        <ImageView
+            style="@style/dialog_back"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/activity_card_charge_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_font_title" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/title_seprater" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/activity_card_charge_item_tv"
+        android:textColor="@color/font_light_black"
+        android:textSize="@dimen/activity_card_charge_info" />
+
+    <RadioGroup
+        android:id="@id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            style="@style/rb_style"
+            android:text="@string/mobile_move" />
+
+        <TextView
+            android:layout_width="@dimen/activity_card_charge_tv_margin"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            style="@style/rb_style"
+            android:text="@string/mobile_union" />
+
+        <TextView
+            android:layout_width="@dimen/activity_card_charge_tv_margin"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            style="@style/rb_style"
+            android:text="@string/mobile_telecom" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/activity_card_charge_item2_tv"
+        android:textColor="@color/font_light_black"
+        android:textSize="@dimen/activity_card_charge_info" />
+
+    <com.newgame.sdk.view.FlowRadioGroup
+        android:id="@id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@id/iv_charge_tv_money1"
+                style="@style/rb_style"
+                android:text="@string/mobile_move" />
+
+            <TextView
+                android:layout_width="@dimen/activity_card_charge_tv_margin"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@id/iv_charge_tv_money2"
+                style="@style/rb_style"
+                android:text="@string/mobile_union" />
+
+            <TextView
+                android:layout_width="@dimen/activity_card_charge_tv_margin"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@id/iv_charge_tv_money3"
+                style="@style/rb_style"
+                android:text="@string/mobile_telecom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_card_charge_tv_margin"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@id/iv_charge_tv_money4"
+                style="@style/rb_style"
+                android:text="@string/mobile_telecom" />
+
+            <TextView
+                android:layout_width="@dimen/activity_card_charge_tv_margin"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@id/iv_charge_tv_money5"
+                style="@style/rb_style"
+                android:text="@string/mobile_telecom" />
+
+            <TextView
+                android:layout_width="@dimen/activity_card_charge_tv_margin"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@id/iv_charge_tv_money6"
+                style="@style/rb_style"
+                android:text="@string/mobile_union"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </com.newgame.sdk.view.FlowRadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/activity_card_charge_mes1"
+        android:textColor="@color/font_light_black"
+        android:textSize="@dimen/activity_card_charge_info" />
+
+    <TextView
+        android:id="@id/tv_verify_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/font_light_black"
+        android:textSize="@dimen/activity_card_charge_info" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_green"
+        android:padding="@dimen/dialog_btn_padding"
+        android:text="@string/dialog_register2_btn"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dialog_font_label" />
+
+</LinearLayout>

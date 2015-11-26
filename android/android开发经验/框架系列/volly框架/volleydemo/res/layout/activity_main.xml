@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_get_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="button get json" />
+    
+    <Button
+        android:id="@+id/button_post_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="button post json" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+	    <Button
+	        android:id="@+id/button_image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="button image" />
+	    <com.android.volley.toolbox.NetworkImageView
+	        android:id="@+id/network_image_view"
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:layout_toRightOf="@id/button_image" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/button_https"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="get rand code"/>
+		<ImageView
+	        android:id="@+id/button_login_randcode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	     android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:orientation="horizontal">
+		
+	    <EditText
+	        android:id="@+id/text_login_username"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:hint="username"/>
+	    
+	     <EditText
+	        android:id="@+id/text_login_password"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:hint="password"/>
+	     
+	     <EditText
+		    android:id="@+id/text_login_randcode"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+		    android:hint="randcode"/>
+	     
+		<Button
+		    android:id="@+id/button_login_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:text="login"/>
+		
+		<TextView
+		    android:id="@+id/text_login_result"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+		
+	</LinearLayout>
+	
+</LinearLayout>

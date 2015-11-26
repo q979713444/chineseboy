@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.testsplashview.RevealLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameinshow_page1_rootview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffbb00" >
+
+        <ImageView
+            android:id="@+id/doraemon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="73.0dip"
+            android:src="@drawable/page1_text"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/router"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_router"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/headset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_headset"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_tv"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_battery"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/clothe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_clothe"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/bee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_bee"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_phone"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="140.0dip"
+            android:src="@drawable/page1_ring"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/doraemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="183.0dip"
+            android:src="@drawable/page1_doraemon" />
+    </RelativeLayout>
+
+</com.example.testsplashview.RevealLayout>

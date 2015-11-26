@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/gameinshow_page3_rootview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:background="#fffb4a4a" >
+
+        <ImageView
+            android:id="@+id/shell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_shell_1"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/surface1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_surface_1"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/pos1"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="47.0dip"
+            android:layout_marginTop="303.0dip" />
+
+        <ImageView
+            android:id="@+id/shell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_shell_2"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/surface2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_surface_2"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/pos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="116.0dip"
+            android:layout_marginTop="140.0dip" />
+
+        <ImageView
+            android:id="@+id/shell3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_shell_3"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/surface3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_surface_3"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/pos3"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="94.0dip"
+            android:layout_marginTop="120.0dip" />
+
+        <ImageView
+            android:id="@+id/ironman_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="72.0dip"
+            android:src="@drawable/page3_text"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ironman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="218.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/page3_ironman" />
+
+        <ImageView
+            android:id="@+id/shell4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_shell_4"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/surface4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_surface_4"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/pos4"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="78.0dip" />
+
+        <View
+            android:id="@+id/pos5"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="117.0dip"
+            android:layout_marginLeft="98.0dip" />
+
+        <ImageView
+            android:id="@+id/shell5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page3_shell_5"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/surface5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/page3_surface_5"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view3_1"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="200.0dip" />
+
+        <View
+            android:id="@+id/view3_2"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="225.0dip" />
+
+        <View
+            android:id="@+id/view2_1"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="43.0dip" />
+
+        <View
+            android:id="@+id/view2_2"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="356.0dip" />
+
+        <View
+            android:id="@+id/view1_1"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11.0dip" />
+
+        <View
+            android:id="@+id/view1_2"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="228.0dip" />
+
+        <View
+            android:id="@+id/view4_1"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="233.0dip" />
+
+        <View
+            android:id="@+id/view4_2"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11.0dip" />
+
+        <View
+            android:id="@+id/view5_1"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="260.0dip" />
+
+        <View
+            android:id="@+id/view5_2"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="125.0dip" />
+    </RelativeLayout>
+    
+    <com.example.testsplashview.Page3Layout
+        android:id="@+id/gameinshow_page3_closeanimation_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</RelativeLayout>

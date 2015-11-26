@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_alignBottom="@id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77000000"
+        android:padding="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/tv_intro"
+            android:text="我是文本" />
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dot_layout"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

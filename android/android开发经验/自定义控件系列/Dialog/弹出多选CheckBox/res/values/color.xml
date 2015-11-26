@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="orange">#DD8500</color>
+    <color name="main_bg">#fff5f5f5</color>
+    <color name="cccccc">#cccccc</color>
+    <color name="c4c4c4">#c4c4c4</color>
+    <color name="d4d4d4">#d4d4d4</color>
+    <color name="ffd0d0d0">#ffd0d0d0</color>
+    <color name="blue_2257c2">#2257c2</color>
+    <color name="title_darkgray">#444444</color>
+    <color name="listview_divider">#E0E0E0</color>
+    <color name="dialog_buttom_bg">#ffe7e7e7</color>
+    <color name="black_333333">#333333</color>
+    <color name="black_444444">#444444</color>
+	<color name="blue">#4682B4</color>
+	<color name="possible_result_points">#c0ffff00</color>
+	<color name="result_view">#b0000000</color>
+	<color name="transparent">#00000000</color>
+	<color name="viewfinder_frame">#ff000000</color>
+	<color name="viewfinder_laser">#ffff0000</color>
+	<color name="viewfinder_mask">#60000000</color>
+	<color name="process">#0762B5</color>
+	<color name="ffffffff">#FFFFFFFF</color>
+	<color name="ff666666">#ff666666</color>
+	
+	<color name="ff778799">#ff778799</color>
+	<color name="ff515c68">#ff515c68</color>
+	<color name="ff79351b">#ff79351b</color>
+	<color name="c_33000000">#33000000</color>
+	<color name="c_7fffffff">#7fffffff</color>
+	<color name="c_666666">#666666</color>
+	<color name="c_808080">#808080</color>
+	<color name="f30">#f30</color>
+	<color name="ff687b8c">#ff687b8c</color>
+	<color name="fe8d49">#fe8d49</color>
+	<color name="selected_text">#0066cc</color>
+	
+</resources>

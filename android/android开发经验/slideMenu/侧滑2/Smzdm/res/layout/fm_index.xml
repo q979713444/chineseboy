@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <!-- 最上面部分开始 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_or"
+        android:padding="8dp" >
+       <!-- 按钮slidingmenu -->
+         <!-- 居中logo -->
+        <ImageView
+            android:id="@+id/main_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/main_me_bg" />
+       
+
+       <!-- 居中logo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="什么值得买"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            />
+        
+       <ImageView
+            android:id="@+id/main_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/main_more_bg" />
+       
+    </RelativeLayout>
+<!--最上面部分结束  -->  
+
+</LinearLayout>
